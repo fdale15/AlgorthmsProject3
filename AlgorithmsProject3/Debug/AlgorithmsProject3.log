@@ -1,13 +1,31 @@
-﻿Build started 11/21/2016 1:16:27 AM.
-     1>Project "C:\Users\William\OneDrive\School\Algorthims\projects\3\AlgorithmsProject3\AlgorithmsProject3\AlgorithmsProject3.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
-         Source.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\William\OneDrive\School\Algorthims\projects\3\AlgorithmsProject3\Debug\AlgorithmsProject3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\William\OneDrive\School\Algorthims\projects\3\AlgorithmsProject3\Debug\AlgorithmsProject3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\William\OneDrive\School\Algorthims\projects\3\AlgorithmsProject3\Debug\AlgorithmsProject3.lib" /MACHINE:X86 Debug\Source.obj
-         AlgorithmsProject3.vcxproj -> C:\Users\William\OneDrive\School\Algorthims\projects\3\AlgorithmsProject3\Debug\AlgorithmsProject3.exe
-     1>Done Building Project "C:\Users\William\OneDrive\School\Algorthims\projects\3\AlgorithmsProject3\AlgorithmsProject3\AlgorithmsProject3.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.69
+﻿  Source.cpp
+c:\users\nick\documents\github\algorthmsproject3\algorithmsproject3\source.cpp(23): warning C4018: '<': signed/unsigned mismatch
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\tuple(164): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\tuple(341): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\tuple(340): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\tuple(520): note: see reference to function template instantiation 'std::tuple<float>::tuple<std::_Unpack_tuple_t,int,0>(_Tag,std::tuple<int> &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\tuple(518): note: see reference to function template instantiation 'std::tuple<float>::tuple<std::_Unpack_tuple_t,int,0>(_Tag,std::tuple<int> &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t
+          ]
+  c:\users\nick\documents\github\algorthmsproject3\algorithmsproject3\source.cpp(54): note: see reference to function template instantiation 'std::tuple<std::string,float>::tuple<const char*,int,0,0>(std::tuple<const char *,int> &&)' being compiled
+  c:\users\nick\documents\github\algorthmsproject3\algorithmsproject3\source.cpp(54): note: see reference to function template instantiation 'std::tuple<std::string,float>::tuple<const char*,int,0,0>(std::tuple<const char *,int> &&)' being compiled
+  AlgorithmsProject3.vcxproj -> C:\Users\Nick\Documents\GitHub\AlgorthmsProject3\Debug\AlgorithmsProject3.exe
+  AlgorithmsProject3.vcxproj -> C:\Users\Nick\Documents\GitHub\AlgorthmsProject3\Debug\AlgorithmsProject3.pdb (Full PDB)
